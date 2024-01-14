@@ -1,10 +1,9 @@
 {
     "name": "Ollamafix",
     "version": "0.0.1",
-    "description": "Description of ollamafix.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/ollamafix",
-    "tags": "cat, template, example",
+    "description": "A Cheshire Cat plugin for fix Langchain's Ollama class",
+    "author_name": "valentimarco",
+    "plugin_url": "https://github.com/valentimarco/Ollama-Fix",
+    "tags": "cat, ollama, fix",
     "thumb": "https://raw.githubusercontent.com/my_repo_path/ollamafix.png"
 }

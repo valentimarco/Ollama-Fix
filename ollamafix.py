@@ -52,7 +52,6 @@ def _create_stream_patch(
         url=api_url,
         headers={
             "Content-Type": "application/json",
-            **(self.headers if isinstance(self.headers, dict) else {}),
         },
         json=request_payload,
         stream=True,
@@ -160,7 +159,6 @@ class LLMOllamaConfig(LLMSettings):
 
 @hook
 def factory_allowed_llms(allowed, cat) -> List:
-    
-    
-    allowed = [LLMOllamaConfig]
+    allowed.append(LLMOllamaConfig)
+
     return allowed
